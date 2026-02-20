@@ -1,0 +1,47 @@
+/* CSS BY TIARRA KAYE */
+/* CSS RESET */
+
+:root {
+/* ROOT VARIABLES */
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+
+/* GLOBAL STYLES */
+    --font: "Playfair Display";
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: var(--font);
+}
+
+.header {
+    color: var(--midnight-blue);
+    text-align: center;
+    color: var(--soft-white);
+}
+
+.italics {
+    font-style: italic;
+}
+
+@media screen and (max-width: 200px) {
+    body {background-color: var(--midnight-blue);
+    }
+}
+
+@media screen and (min-width: 201px) and (max-width: 300px) {
+    body {background-color: var(--midnight-blue);
+    }
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+    body {background-color: var(--midnight-blue);
+    }
+}
