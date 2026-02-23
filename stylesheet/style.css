@@ -16,15 +16,50 @@
 
 .main {
     width: 100%;
-    max-width: 1200px;
+    max-width: 600px;
     margin: 0 auto;
     font-family: var(--font);
 }
 
 .header {
-    color: var(--midnight-blue);
+    background-color: var(--midnight-blue);
     text-align: center;
     color: var(--soft-white);
+    font-family: var(--font);
+}
+
+.welcome {
+    background-color: var(--linen);
+    text-align: center;
+    color: var(--dark-charcoal);
+    font-family: var(--font);
+}
+
+.offerings {
+    background-color: var(--linen);
+    text-align: center;
+    color: var(--dark-charcoal);
+    font-family: var(--font);
+}
+
+.box {
+ background-color: var(--olive-green);
+    text-align: center;
+    color: var(--soft-white);
+    font-family: var(--font);
+}
+
+h1 {
+
+}
+
+h2 {
+
+
+}
+
+h3 {
+
 }
 
 .italics {
