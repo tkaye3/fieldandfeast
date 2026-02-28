@@ -28,7 +28,6 @@
     background-color: var(--midnight-blue);
     text-align: center;
     color: var(--soft-white);
-    font-family: var(--font);
 }
 
 .info {
@@ -132,15 +131,19 @@
 
 h1 {}
 
-h2 {
-    color: var(--dark-charcoal);
-    font-weight: light;
-}
 
-.info h3 {
+
+.info h2 {
     flex: 1;
     text-align: center;
     margin: 0;
+    font-size: 20px;
+}
+
+h3 {
+    color: var(--dark-charcoal);
+    font-weight: light;
+    font-size: 25px;
 }
 
 h4 {
