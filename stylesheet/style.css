@@ -17,7 +17,6 @@
 .main {
     font-family: var(--font);
     margin: 0 auto;
-    font-size: 18px;
 }
 
 .body {
@@ -87,13 +86,12 @@
 }
 
 .card {
-    display: flex; flex-direction: column;
+    flex-direction: column;
     overflow: hidden;
     object-fit: cover;
     border-radius: 16px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     padding: 0px;
-    display: inline-block;
     vertical-align: top;
     margin: 0 auto;
     text-align: center;
@@ -118,7 +116,6 @@
 .bottom {
     text-align: center;
     color: var(--soft-white);
-    margin: 30px 0 10px 0;
 }
 
 .bottom-yellow {
@@ -162,6 +159,9 @@ body {
 
 /* MEDIA QUERY MEDIUM */
 @media screen and (min-width: 600px) {
+    .main {
+        font-size: 14px;
+    }
     .welcome {
         width: 100%;
     }
@@ -184,14 +184,18 @@ body {
     }
     .card {
         width: 20%;
+        display: inline-block;
     }
     .yellow-bar {
-        width: 100%;
+        width: 90%;
     }
 }
 
 /* MEDIA QUERY LARGE */
 @media screen and (min-width: 900px) {
+    .main {
+        font-size: 16px;
+    }
     .welcome {
         width: 90%;
     }
@@ -216,14 +220,19 @@ body {
     }
     .card {
         width: 20%;
+        display: inline-block;
     }
     .yellow-bar {
-        width: 100%;
+        width: 90%;
     }
 }
 
 /* MEDIA QUERY X-LARGE */
 @media screen and (min-width: 1200px) {
+    .main {
+        font-size: 18px;
+    }
+    
     .welcome {
         width: 80%;
     }
@@ -247,6 +256,7 @@ body {
     }
     .card {
         width: 19%;
+        display: inline-block;
     }
     .yellow-bar {
         width: 80%;
